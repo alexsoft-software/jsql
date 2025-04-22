@@ -38,7 +38,7 @@ use ASCOOS\FRAMEWORK\Kernel\DB\JSQLDB;
 $conf = require "conf/config.php";
 
 $sql = "CREATE TABLE `#__articles` (
-  `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY',
+  `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
   `article_id` int(10) UNSIGNED NOT NULL DEFAULT 0,
   `cat_id` int(10) UNSIGNED NOT NULL DEFAULT 0,
   `user_id` int(10) UNSIGNED NOT NULL DEFAULT 0,
