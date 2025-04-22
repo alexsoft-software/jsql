@@ -4,8 +4,6 @@
 
 **JSQLDB** is a **flexible database system** that **leverages JSON** for storage and provides **SQL-like queries** without requiring SQLite or MySQL. It’s **lightweight, fast**, and **perfect** for applications that need **portability and security**.
 
-🔗 **GitHub Repo**: [alexsoft-software/jsql](https://github.com/alexsoft-software/jsql)
-
 ---
 
 ### **🚀 Features**
