@@ -65,11 +65,10 @@ use ASCOOS\FRAMEWORK\Kernel\DB\JSQLDB;
 // We read from the settings file the operating parameters of the database.
 $conf = require "conf/config.php";
 
-$properties[] = $conf;
 $properties['tables_prefix'] = 'ascoos'; // It will give e.g. a "ascoos_articles' table.
 
 // Initialize the database object
-$jsql = new TJSQLDB($properties);
+$jsql = new TJSQLDB($conf, $properties);
 
 // Create Database
 $jsql->createDatabase('test_db');
