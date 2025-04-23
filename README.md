@@ -1,6 +1,6 @@
 # **JSQLDB - JSON SQL Database for PHP**
 
-## 📌 **A lightweight, SQL-like JSON-based database for PHP**  
+## 💬 **A lightweight, SQL-like JSON-based database for PHP**  
 
 **JSQLDB** is a **flexible database system** that **leverages JSON** for storage and provides **SQL-like queries** without requiring SQLite or MySQL. It’s **lightweight, fast**, and **perfect** for applications that need **portability and security**.
 
@@ -10,7 +10,7 @@
 
 ---
 
-### **Features**
+### 🚀 **Features**
 - ✅ **JSON-based storage** without DLL/SO dependencies  
 - ✅ **SQL-like queries** with support for `SELECT`, `INSERT`, `UPDATE`, `DELETE`, `JOIN`, `UNION`, `GROUP BY`, `HAVING`, `LIMIT`, `ORDER BY`, `DISTINCT` etc.
 - ✅ **Indexing support** for fast searching  
@@ -27,7 +27,7 @@
 
 ---
 
-### **📌 Installation**
+### **💻 Installation**
 
 ```bash
 git clone https://github.com/alexsoft-software/jsql.git
@@ -44,7 +44,7 @@ composer install
 The database must be initialized before using it. This is done through the settings file.
 
 
-### **📌 Example Settings**
+### **📑 Example Settings**
 ```php
 
 return [
@@ -56,7 +56,7 @@ return [
 ];
 ```
 
-### **📌 Example Usage**
+### **📑 Example Usage**
 
 ```php
 <?php
@@ -117,7 +117,7 @@ print_r($data);
 ?>
 ```
 
-### 📌  **Alternative way to create a table**
+### 📑 **Alternative way to create a table**
 
 ```php
 
@@ -140,5 +140,5 @@ $jsql->createTable('#__articles', $schema);
 
 ✏️ **See more examples on the official website!**  
 
----
+
 
