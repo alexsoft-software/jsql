@@ -2,7 +2,7 @@
 use ASCOOS\FRAMEWORK\Kernel\DB\JSQLDB;
 
 // We read from the settings file the operating parameters of the database.
-$conf = require "conf/config.php";
+$conf = require "../conf/config.php";
 
 $properties['tables_prefix'] = 'ascoos'; // It will give e.g. a "ascoos_articles' table.
 
