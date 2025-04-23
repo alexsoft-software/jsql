@@ -10,7 +10,7 @@
 
 ---
 
-### **🚀 Features**
+### **Features**
 
 ✅ **JSON-based storage** without DLL/SO dependencies  
 ✅ **SQL-like queries** with support for `SELECT`, `JOIN`, `GROUP BY`, `HAVING`, `LIMIT`  
@@ -79,7 +79,7 @@ $jsql->close();
 print_r($data);
 ?>
 ```
-📌 **See more examples on the official website!**  
+✏️ **See more examples on the official website!**  
 
 ---
 
