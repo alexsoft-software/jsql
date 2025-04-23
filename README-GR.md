@@ -92,7 +92,7 @@ $jsql->setSQLQuery($sql);
 $jsql->execute();
 
 // Εισαγωγή δεδομένων
-$query->setsqlQuery("INSERT INTO #__articles (article_id, cat_id, user_id, lang_id, title, content) VALUES 
+$query->setSQLQuery("INSERT INTO #__articles (article_id, cat_id, user_id, lang_id, title, content) VALUES 
 (1, 1, 1, 1, 'Title 1', 'Test Content 1'),
 (1, 1, 1, 2, 'Title 2', 'Test Content 2'),
 (2, 2, 1, 1, 'Title 3', 'Test Content 3'),
