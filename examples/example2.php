@@ -38,7 +38,7 @@ $query->setSQLQuery("INSERT INTO #__articles (article_id, cat_id, user_id, lang_
 (1, 1, 1, 2, 'Title 2', 'Test Content 2'),
 (2, 2, 1, 1, 'Title 3', 'Test Content 3'),
 (3, 3, 1, 1, 'Title 4', 'Test Content 4'),
-(3, 1, 1, 2, 'Title 5', 'Test Content 5');
+(3, 3, 1, 2, 'Title 5', 'Test Content 5');
 ");
 $query->execute();
 
